@@ -1,5 +1,4 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<h1>Bienvenue sur mon site</h1>
 <% if user_signed_in? %>
-  <p>Bonjour <%= current_user.email %></p>
+  <p>Bonjour <%= current_user.email %>, bienvenue!</p>
 <% end %>
